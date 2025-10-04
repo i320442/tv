@@ -96,10 +96,10 @@ function getDownloadUrl($ipInfo) {
             case strpos($isp, '电信') !== false:
                 return 'https://gh.dpik.top/https://github.com/i320442/tv/blob/main/tjct.txt';
             default:
-                return 'https://live.zbds.org/tv/iptv4.txt';
+                return 'https://gh.dpik.top/https://github.com/kakaxi-1/IPTV/blob/main/iptv.txt';
         }
     } else {
-        return 'https://live.zbds.org/tv/iptv4.txt';
+        return 'https://gh.dpik.top/https://github.com/kakaxi-1/IPTV/blob/main/iptv.txt';
     }
 }
 
@@ -125,4 +125,5 @@ try {
 } catch (Exception $e) {
     die("错误: " . $e->getMessage());
 }
+
 ?>
