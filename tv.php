@@ -90,11 +90,11 @@ function getDownloadUrl($ipInfo) {
     if (strpos($region, '–天津–') !== false) {
         switch (true) {
             case strpos($isp, '联通') !== false:
-                return 'https://gh.dpik.top/https://github.com/i320442/tv/blob/main/tjcu.txt';
+                return 'https://gh.dpik.top/https://github.com/liliu2y/tv/blob/main/tjcu.txt';
             case strpos($isp, '移动') !== false:
-                return 'https://gh.dpik.top/https://github.com/i320442/tv/blob/main/tjcm.txt';
+                return 'https://gh.dpik.top/https://github.com/liliu2y/tv/blob/main/tjcm.txt';
             case strpos($isp, '电信') !== false:
-                return 'https://gh.dpik.top/https://github.com/i320442/tv/blob/main/tjct.txt';
+                return 'https://gh.dpik.top/https://github.com/liliu2y/tv/blob/main/tjct.txt';
             default:
                 return 'https://gh.dpik.top/https://github.com/kakaxi-1/IPTV/blob/main/iptv.txt';
         }
@@ -127,3 +127,4 @@ try {
 }
 
 ?>
+
